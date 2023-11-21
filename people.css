@@ -1,0 +1,431 @@
+
+	html {
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+	}
+
+	.elementor-element-67b8664
+		.elementor-container.elementor-column-gap-default {
+		margin-left: 0;
+	}
+	.elementor-element-67b8664
+		.elementor-background-video-container
+		.elementor-html5-video {
+		object-fit: contain;
+	}
+	.horizontal-section {
+		position: relative;
+		padding: 100px 0 0 0;
+		background-color: #000;
+		height: 100vh;
+	}
+
+	.horizontal-section .section-title {
+		color: #fff;
+		position: fixed;
+		top: 52%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+	}
+	.horizontal-section .section-title .top-title p {
+        font-family:"Neue Haas Unica W1G", sans-serif;
+        font-size: 64px;
+        line-height: 78px;
+        font-weight: 600;
+        margin-bottom: 30px;
+	}
+	.horizontal-section .section-title .bottom-title {
+		font-size: 1.8rem;
+	}
+	.horizontal-section .section-title.on {
+		top: 50%;
+		opacity: 1;
+		transition: all 0.8s ease;
+	}
+	.horizontal-section .section-title.off {
+		top: 52%;
+		opacity: 0;
+		transition: all 0.4s ease;
+	}
+
+	.sticky-wrapper {
+		width: 100vw;
+		height: 95vh;
+		position: sticky;
+		top: 150px;
+		padding: 20px;
+		background: #fff;
+		margin-left: 100vw;
+		border-top-left-radius: 100px;
+		overflow: hidden;
+	}
+	.sticky-wrapper .text {
+		width: 30vw;
+		position: absolute;
+		top: 10%;
+		left: 7%;
+	}
+
+	.sticky-wrapper .text h1 {
+		font-size: 48px;
+		margin-bottom: 10%;
+		font-family:"Neue Haas Unica W1G", sans-serif;
+		font-weight: 500;
+	}
+	.sticky-wrapper .text p {
+		margin-bottom: 5px;
+		font-size: 20px;
+		line-height: 1.5;
+	}
+	.element-wrapper {
+		position: relative;
+		display: flex;
+		align-items: flex-end;
+		margin-left: 42%;
+		top: 25%;
+		background: #fff;
+		will-change: transform;
+		border-radius: 40px;
+	}
+	.element-wrapper .elementor-element-f2e07d5 {
+		margin-left: 4vw;
+	}
+	.element {
+		width: 15vw;
+		height: 60vh;
+		position: relative;
+
+		margin: 0 70px 0 0;
+		flex-shrink: 0;
+		font-size: 50px;
+		color: #fff;
+		border-radius: 40px;
+		box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.15);
+	}
+	.element video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 40px;
+	}
+	.elementor-4702 .elementor-element-67b8664 
+	.elementor-element.elementor-element-f2e07d5
+		.elementor-button {
+		font-size: 18px;
+	}
+
+	.main_horizontall_scroll {
+		align-items: flex-end;
+	}
+	@media all and (min-width: 2561px) and (max-width: 2880px) {
+		.horizontal-section .section-title .top-title {
+			font-size: 6rem;
+			margin-bottom: 50px;
+		}
+		.horizontal-section .section-title .top-title p {
+			margin-bottom: 4rem;
+		}
+		.horizontal-section .section-title .bottom-title {
+			font-size: 1.8rem;
+		}
+
+		.sticky-wrapper {
+			width: 100vw;
+			height: 95vh;
+			position: sticky;
+			top: 150px;
+			padding: 20px;
+			background: #fff;
+			margin-left: 100vw;
+			border-top-left-radius: 150px;
+			overflow: hidden;
+		}
+		.sticky-wrapper .text {
+			width: 30vw;
+			position: absolute;
+			top: 10%;
+			left: 7%;
+		}
+
+		.sticky-wrapper .text h1 {
+			font-size: 48px;
+			margin-bottom: 70px;
+			font-family:"Neue Haas Unica W1G", sans-serif;
+			font-weight: 500;
+		}
+		.sticky-wrapper .text p {
+			margin-bottom: 5px;
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.element-wrapper {
+			position: relative;
+			display: flex;
+			align-items: flex-end;
+			margin-left: 42%;
+			top: 25%;
+			background: #fff;
+			will-change: transform;
+		}
+	
+		.element {
+			width: 15vw;
+			height: 60vh;
+			position: relative;
+
+			margin: 0 60px 0 0;
+			flex-shrink: 0;
+			font-size: 50px;
+			color: #fff;
+			border-radius: 40px;
+			box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.15);
+		}
+	
+	}
+	@media all and (min-width: 1921px) and (max-width: 2560px) {
+		.horizontal-section .section-title .bottom-title {
+			font-size: 1.8rem;
+		}
+		.sticky-wrapper {
+			width: 100vw;
+			height: 95vh;
+			position: sticky;
+			top: 150px;
+			padding: 20px;
+			background: #fff;
+			margin-left: 100vw;
+			border-top-left-radius: 100px;
+			overflow: hidden;
+		}
+		.sticky-wrapper .text {
+			width: 30vw;
+			position: absolute;
+			top: 10%;
+			left: 7%;
+		}
+
+		.sticky-wrapper .text h1 {
+			font-size: 48px;
+			margin-bottom: 10%;
+			font-family:"Neue Haas Unica W1G", sans-serif;
+			font-weight: 500;
+		}
+		.sticky-wrapper .text p {
+			margin-bottom: 5px;
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.element-wrapper {
+			position: relative;
+			display: flex;
+			align-items: flex-end;
+			margin-left: 42%;
+			top: 25%;
+			background: #fff;
+			will-change: transform;
+		}
+		
+		.element {
+			width: 15vw;
+			height: 60vh;
+			position: relative;
+
+			margin: 0 50px 0 0;
+			flex-shrink: 0;
+			font-size: 50px;
+			color: #fff;
+			border-radius: 40px;
+			box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.15);
+		}
+		
+	}
+	@media all and (min-width: 1537px) and (max-width: 1920px) {
+		.horizontal-section .section-title .bottom-title {
+			font-size: 1.1rem;
+		}
+
+		.sticky-wrapper {
+			width: 100vw;
+			height: 90vh;
+			position: sticky;
+			top: 150px;
+			padding: 20px;
+			background: #fff;
+			margin-left: 100vw;
+			border-top-left-radius: 100px;
+			overflow: hidden;
+		}
+		.sticky-wrapper .text {
+			width: 30vw;
+			position: absolute;
+			top: 10%;
+			left: 7%;
+		}
+
+		.sticky-wrapper .text h1 {
+			font-size: 48px;
+			margin-bottom: 10%;
+			font-family:"Neue Haas Unica W1G", sans-serif;
+			font-weight: 500;
+		}
+		.sticky-wrapper .text p {
+			margin-bottom: 5px;
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.element-wrapper {
+			position: relative;
+			display: flex;
+			align-items: flex-end;
+			/* margin-left: 42%; */
+			top: 25%;
+			background: #fff;
+			will-change: transform;
+		}
+		
+		.element {
+			width: 15vw;
+			height: 55vh;
+			position: relative;
+
+			margin: 0 50px 0 0;
+			flex-shrink: 0;
+			font-size: 50px;
+			color: #fff;
+			border-radius: 40px;
+			box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.15);
+		}
+		
+	}
+	@media all and (min-width: 1367px) and (max-width: 1536px) {
+		.horizontal-section .section-title .bottom-title {
+			font-size: 1.1rem;
+		}
+		.sticky-wrapper {
+			height: 90vh;
+			top: 135px;
+			padding: 20px;
+		}
+		.sticky-wrapper .text {
+			width: 30vw;
+			top: 10%;
+			left: 7%;
+		}
+		.sticky-wrapper .text h1 {
+			font-size: 48px;
+			margin-bottom: 10%;
+			font-weight: 500;
+		}
+		.sticky-wrapper .text p {
+			margin-bottom: 5px;
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.element {
+			width: 15vw;
+			height: 55vh;
+			margin: 0 50px 0 0;
+		}
+		.element-wrapper {
+			margin-left: 42%;
+			top: 25%;
+		}
+	
+	
+	}
+	@media all and (min-width: 1281px) and (max-width: 1366px) {
+		.horizontal-section .section-title .bottom-title {
+			font-size: 1.1rem;
+		}
+		.sticky-wrapper .text {
+			top: 10%;
+			left: 7%;
+		}
+		.sticky-wrapper .text h1 {
+			font-size: 48px;
+			margin-bottom: 10%;
+		}
+		.sticky-wrapper .text p {
+			margin-bottom: 5px;
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.element {
+			width: 15vw;
+			height: 55vh;
+			border-radius: 40px;
+			margin: 0 40px 0 0;
+			box-shadow: 4px 8px 40px rgb(0 0 0 / 15%);
+		}
+		.element-wrapper {
+			margin-left: 42%;
+			top: 24%;
+		}
+	
+	
+		@media all and (max-height: 680px) {
+			.sticky-wrapper {
+				top: 140px;
+			}
+			.sticky-wrapper .text {
+				top: 20px;
+			}
+			.sticky-wrapper .text h1 {
+				font-size: 48px;
+			}
+			.sticky-wrapper .text p {
+				font-size: 20px;
+                line-height: 1.5;
+			}
+			.element-wrapper {
+				top: 85px;
+			}
+		}
+	}
+	@media all and (max-width: 1280px) {
+		.horizontal-section .section-title .bottom-title {
+			font-size: 1.1rem;
+		}
+		.sticky-wrapper {
+			width: 100vw;
+			height: 90vh;
+			position: sticky;
+			top: 135px;
+			padding: 20px;
+			background: #fff;
+			margin-left: 100vw;
+			border-top-left-radius: 70px;
+			overflow: hidden;
+		}
+		.sticky-wrapper .text {
+			width: 30vw;
+			top: 10%;
+			left: 7%;
+		}
+		.sticky-wrapper .text h1 {
+			font-size: 48px;
+			margin-bottom: 10%;
+		}
+		.sticky-wrapper .text p {
+			margin-bottom: 5px;
+			font-size: 20px;
+			line-height: 1.5;
+		}
+		.element {
+			width: 14vw;
+			height: 53vh;
+			border-radius: 40px;
+			margin: 0 35px 0 0;
+			box-shadow: 4px 8px 40px rgb(0 0 0 / 15%);
+		}
+		.element-wrapper {
+			margin-left: 42%;
+			top: 22%;
+		}
+		
+		.element video {
+			border-radius: 40px;
+		}
+		
+	}

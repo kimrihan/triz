@@ -1,0 +1,278 @@
+
+
+	.elementor-element-c751590 picture p {
+		font-family: 'Neue Haas Unica W1G', Sans-Serif;
+	}
+	.main_title_transparent {
+		color: rgb(0, 0, 0, 0%);
+		font-weight: 500;
+		font-size: 72px;
+		-webkit-text-stroke: 0;
+
+		/* drag none */
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.page-id-4702 .elementor-element-95ef964 {
+		height: auto;
+	}
+	.page-id-4702 .elementor-element-95ef964 .elementor-container {
+		max-width: 100vw;
+	}
+	.page-id-4702
+		.elementor-element-95ef964
+		.elementor-container
+		.elementor-element-populated {
+		padding: 0;
+	}
+
+	.main-banner {
+		position: relative;
+		height: calc(100vh * 5);
+	}
+	.gallery {
+		position: fixed;
+		top: 0px;
+		height: 100vh;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	picture:nth-child(1) {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: #fff;
+	}
+	picture:nth-child(2) {
+		position: absolute;
+
+		top: 46vh;
+		right: 55vw;
+		bottom: 51vh;
+		left: 55vw;
+		border-top-left-radius: 45%;
+		border-top-right-radius: 45%;
+		overflow: hidden;
+	}
+	picture:nth-child(2) img {
+		top: -35vh;
+		left: -45vw;
+	}
+	picture:nth-child(3) {
+		position: absolute;
+
+		top: 50vh;
+		right: 50vw;
+		bottom: 50vh;
+		left: 50vw;
+		border-top-left-radius: 45%;
+		border-top-right-radius: 45%;
+		overflow: hidden;
+	}
+	picture:nth-child(4) {
+		position: absolute;
+
+		top: 50vh;
+		right: 50vw;
+		bottom: 50vh;
+		left: 50vw;
+		border-top-left-radius: 45%;
+		border-top-right-radius: 45%;
+		overflow: hidden;
+	}
+
+	picture .bg-img.title {
+		width: 12vw;
+		height: 19vw;
+		top: 55%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		transition: opacity 0.4s ease;
+		opacity: 1;
+	}
+	picture .bg-img.title.hide-title {
+		opacity: 0;
+	}
+	picture img.bg-img {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		object-fit: fill;
+		z-index: 10;
+		max-width: 100vw;
+	}
+	.last-bg {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-color: #fff;
+		z-index: 10;
+	}
+	.last-bg img:nth-child(1) {
+		position: absolute;
+		width: 43%;
+		height: 32%;
+		object-fit: cover;
+		right: 0;
+	}
+	.last-bg img:nth-child(2) {
+		position: absolute;
+		width: 20%;
+		height: 30%;
+		object-fit: cover;
+		top: 37%;
+		left: 3%;
+	}
+	.last-bg img:nth-child(3) {
+		position: absolute;
+		width: 25%;
+		height: 35%;
+		object-fit: cover;
+
+		right: 5%;
+		bottom: 0px;
+	}
+	.elementor-element-95ef964 .text-wrapper {
+		width: 50vw;
+		height: 50vh;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -45%);
+	}
+	.elementor-element-95ef964 .text {
+		position: absolute;
+		z-index: 11;
+		left: -70%;
+		transform: translate(-100%, -100%);
+		top: 50%;
+		white-space: nowrap;
+	}
+
+	.elementor-element-95ef964 .text .text-line {
+		/* margin-bottom: 15px; */
+		margin-bottom: 0px;
+	}
+	.elementor-element-95ef964 .text .text-line p {
+		font-family: 'Neue Haas Unica W1G', Sans-Serif;
+		display: inline-block;
+		font-weight: bold;
+		letter-spacing: -0.02em;
+		font-size: 4vw;
+		line-height: 1.1em;
+		stroke-width: 1px;
+		-webkit-text-stroke-width: 1px;
+		stroke: #f33a1a;
+		-webkit-text-stroke-color: #f33a1a;
+		color: #ff3a1a;
+		transition: color 0.6s ease;
+		margin-bottom: 0;
+	}
+
+	.elementor-element-95ef964 .text .text-line p.fade {
+		color: #fff;
+	}
+	.elementor-element-95ef964 .text .text-line:nth-child(2) {
+		margin-left: 27%;
+	}
+	.elementor-element-95ef964 .text .text-line:nth-child(3) {
+		margin-left: 27%;
+	}
+	.elementor-element-95ef964 .text2 {
+		position: absolute;
+		z-index: 11;
+		left: 50%;
+		top: 175%;
+		white-space: nowrap;
+		transform: translate(20%, -33%);
+		white-space: nowrap;
+	}
+
+	.elementor-element-95ef964 .text2 .text-line {
+		/* margin-bottom: 18px; */
+		margin-bottom: 0px;
+	}
+	.elementor-element-95ef964 .text2 .text-line p {
+		font-family: 'Neue Haas Unica W1G', Sans-Serif;
+		display: inline-block;
+		font-weight: bold;
+		letter-spacing: -0.02em;
+		font-size: 4vw;
+		line-height: 1.1em;
+		stroke-width: 1px;
+		-webkit-text-stroke-width: 1px;
+		stroke: #f33a1a;
+		-webkit-text-stroke-color: #f33a1a;
+		color: #fff;
+		transition: color 0.6s ease;
+		margin-bottom: 0;
+	}
+	.elementor-element-95ef964 .text2 .text-line p.fade {
+		color: #ff3a1a;
+	}
+	.elementor-element-95ef964 .text2 .text-line:nth-child(2) {
+		margin-left: -62%;
+	}
+
+	.elementor-element-95ef964 .text2 .btn-link {
+		position: absolute;
+		left: -20%;
+		top: 110%;
+		width: 20%;
+		border: 1px solid #333;
+		text-align: center;
+		font-size: 1.2vw;
+		line-height: 1.5rem;
+		padding: 5px 10px;
+		border-radius: 2rem;
+		transition: all 0.3s ease;
+	}
+
+	.elementor-element-95ef964 .text2 .text-line:nth-child(3) {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: flex-end;
+		margin-left: -80%;
+	}
+	/* button */
+	.elementor-element-95ef964 .text2 .about-link-btn {
+		position: absolute;
+		transform: translate(-100%, 20%);
+	}
+	.elementor-element-95ef964 .text2 a.elementor-button-link {
+		border-radius: 50px;
+		background: #fff;
+		border: 1px solid #000;
+		padding: 10px 20px;
+	}
+	.elementor-element-95ef964 .text2 .elementor-button-text {
+		font-size: 18px;
+		font-family: 'Neue Haas Unica W1G', Sans-serif;
+	}
+	.elementor-element-95ef964 .text2 .elementor-button-icon {
+		fill: #000;
+		top: 2px;
+		position: relative;
+	}
+	.elementor-element-95ef964 .text2 a.elementor-button-link:hover {
+		background: #000;
+	}
+
+	.elementor-element-95ef964
+		.text2
+		a.elementor-button-link:hover
+		.elementor-button-text {
+		color: #fff;
+	}
+	.elementor-element-95ef964
+		.text2
+		.elementor-button-link:hover
+		.elementor-button-icon {
+		fill: #fff;
+	}
+
